@@ -340,7 +340,7 @@
   	width: 160px;
   	position: relative;
   	height: 141.1px;
-  	object-fit: cover;
+  	object-fit: contain;
 }
 .unshiu-parent {
   	align-self: stretch;
