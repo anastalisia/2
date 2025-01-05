@@ -547,25 +547,9 @@
   	z-index: 8;
   	margin-left: -60px;
 }
-.span {
-  	color: #000;
-}
-.span1 {
-  	text-decoration: underline;
-  	color: #fff;
-}
-.p18 {
-  	margin-block-start: 0;
-  	margin-block-end: 4px;
-  	color: #000;
-}
-.span2 {
-  	text-decoration: underline;
-}
 .div32 {
   	position: relative;
   	line-height: 135%;
-  	color: #fff;
 }
 .parent2 {
   	position: absolute;
@@ -609,7 +593,7 @@
   	height: 123px;
   	flex-shrink: 0;
   	object-fit: cover;
-    object-position: center top;
+   object-position: center top;
 }
 .my-phototext {
   	align-self: stretch;
