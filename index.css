@@ -188,11 +188,11 @@
 }
 .rub-icon {
   	width: 195px;
-  	position: relative;
-  	height: 181px;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	object-fit: cover;
+    height: 181px;
+    overflow: hidden; /* Обрезка содержимого */
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
 }
 .rub-parent {
   	align-self: stretch;
