@@ -390,6 +390,12 @@
   	text-align: center;
   	font-size: 16px;
 }
+.b3 {
+  	width: 625px;
+  	position: relative;
+  	line-height: 115%;
+  	display: inline-block;
+}
 .div19 {
   	position: absolute;
   	top: 0px;
@@ -406,29 +412,13 @@
   	font-size: 16px;
 }
 .view {
-  	position: absolute;
-  	top: 1933px;
-  	left: 0px;
-  	width: 1000px;
+  	align-self: stretch;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: flex-start;
   	padding: 40px 80px 0px;
-  	box-sizing: border-box;
   	gap: 16px;
-}
-.pyatno-child {
-  	width: 195px;
-  	position: absolute;
-  	margin: 0 !important;
-  	top: 0px;
-  	left: 80px;
-  	border-radius: 100px;
-  	height: 195px;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	z-index: 0;
 }
 .rub-icon {
   	width: 195px;
@@ -439,7 +429,7 @@
   	object-fit: cover;
 }
 .rub-parent {
-  	align-self: stretch;
+  	width: 625px;
   	display: flex;
   	flex-direction: row;
   	align-items: flex-start;
@@ -461,31 +451,33 @@
   	flex-shrink: 0;
 }
 .frame-group {
-  	width: 625px;
-  	margin: 0 !important;
-  	position: absolute;
-  	top: 0px;
-  	left: 80px;
+  	width: 1000px;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: flex-start;
+  	padding: 0px 80px;
+  	box-sizing: border-box;
   	gap: 8px;
-  	z-index: 1;
+  	font-size: 12px;
 }
-.pyatno {
+.view-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 24px;
+}
+.look {
   	position: absolute;
-  	top: 2175px;
+  	top: 1933px;
   	left: 0px;
   	width: 1000px;
-  	height: 295px;
   	display: flex;
-  	flex-direction: row;
+  	flex-direction: column;
   	align-items: flex-start;
-  	justify-content: space-between;
-  	padding: 24px 10px 10px;
-  	box-sizing: border-box;
-  	font-size: 12px;
+  	justify-content: flex-start;
 }
 .vide-touchtext {
   	position: absolute;
@@ -597,7 +589,7 @@
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: flex-start;
-  	padding: 40px 80px 0px;
+  	padding: 40px 0px 0px 80px;
   	box-sizing: border-box;
   	gap: 24px;
 }
@@ -625,7 +617,7 @@
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: flex-start;
-  	padding: 48px 80px 0px;
+  	padding: 48px 0px 0px 80px;
   	box-sizing: border-box;
   	gap: 24px;
   	font-size: 48px;
