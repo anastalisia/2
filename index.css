@@ -326,7 +326,7 @@
   	overflow: hidden;
   	height: 198px;
   	flex-shrink: 0;
-  	object-fit: cover;
+  	object-fit: contain;
 }
 .klementin-parent {
   	width: 195px;
