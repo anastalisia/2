@@ -1,73 +1,73 @@
 .main-photo-icon {
-    width: 100%;
+    width: 1000px;
     position: relative;
-    height: 30rem;
+    height: 490px;
     object-fit: cover;
     z-index: 0;
 }
 .b {
     align-self: stretch;
     position: relative;
-    line-height: 1;
+    line-height: 100%;
     display: inline-block;
-    height: 6rem;
+    height: 96px;
     flex-shrink: 0;
 }
 .div {
-    width: 40%;
+    width: 625px;
     position: relative;
-    font-size: 1.25rem;
-    line-height: 1.35;
+    font-size: 20px;
+    line-height: 135%;
     display: inline-block;
 }
 .headlid {
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 3rem 0 0 5rem;
+    padding: 48px 0px 0px 80px;
     box-sizing: border-box;
-    gap: 1.5rem;
+    gap: 24px;
     z-index: 1;
-    margin-left: -3.75rem;
-    font-size: 3rem;
+    margin-left: -60px;
+    font-size: 48px;
 }
 .b1 {
     align-self: stretch;
     position: relative;
-    line-height: 1.15;
+    line-height: 115%;
 }
 .div1 {
     position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 1.35;
+    top: 0px;
+    left: 0px;
+    line-height: 135%;
     display: inline-block;
-    width: 40%;
+    width: 625px;
 }
 .wrapper {
-    width: 40%;
+    width: 625px;
     position: relative;
-    height: 6.875rem;
-    font-size: 1rem;
+    height: 110px;
+    font-size: 16px;
 }
 .gnil-icon {
-    width: 15%;
+    width: 195px;
     position: relative;
-    height: auto;
+    height: 132px;
     object-fit: cover;
 }
 .tverd-icon {
-    width: 15%;
+    width: 195px;
     position: relative;
-    height: auto;
+    height: 173px;
     object-fit: cover;
 }
 .spel-icon {
-    width: 15%;
+    width: 195px;
     position: relative;
-    height: auto;
+    height: 137px;
     object-fit: cover;
 }
 .spelost-photo {
@@ -76,54 +76,54 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 1.25rem;
+    gap: 20px;
 }
 .parent {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 15%;
+    top: 0px;
+    left: 0px;
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.5rem;
+    gap: 8px;
 }
 .group {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 15%;
+    top: 0px;
+    left: 215px;
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.5rem;
+    gap: 8px;
 }
 .container {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 15%;
+    top: 0px;
+    left: 430px;
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.5rem;
+    gap: 8px;
 }
 .spelost-text {
     align-self: stretch;
     position: relative;
-    height: 8.5rem;
+    height: 136px;
 }
 .div2 {
     align-self: stretch;
-    height: 20rem;
+    height: 321px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.75rem;
+    gap: 12px;
 }
 .spelost-phototext {
     align-self: stretch;
@@ -131,52 +131,52 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 0.75rem;
+    font-size: 12px;
 }
 .touch {
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 2.5rem 0 0 5rem;
+    padding: 40px 0px 0px 80px;
     box-sizing: border-box;
-    gap: 1.5rem;
+    gap: 24px;
     z-index: 2;
-    margin-left: -3.75rem;
+    margin-left: -60px;
 }
 .video-touch {
     align-self: stretch;
     position: relative;
-    height: 29.5rem;
+    height: 472px;
 }
 .vide-touchtext {
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 1.5rem 5rem 0;
+    padding: 24px 80px 0px;
     box-sizing: border-box;
-    gap: 0.8125rem;
+    gap: 13px;
     z-index: 3;
-    margin-left: -3.75rem;
-    font-size: 0.75rem;
+    margin-left: -60px;
+    font-size: 12px;
 }
 .div10 {
     position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 1.35;
+    top: 0px;
+    left: 0px;
+    line-height: 135%;
     display: inline-block;
-    width: 40%;
-    height: 8.25rem;
+    width: 625px;
+    height: 132px;
 }
 .frame {
     align-self: stretch;
     position: relative;
-    height: 8.375rem;
-    font-size: 1rem;
+    height: 134px;
+    font-size: 16px;
 }
 .frame-div {
     align-self: stretch;
@@ -187,9 +187,11 @@
     gap: 16px;
 }
 .rub-icon {
-    width: 15%;
+    width: 195px;
     position: relative;
-    height: auto;
+    height: 181px;
+    overflow: hidden;
+    flex-shrink: 0;
     object-fit: cover;
 }
 .rub-parent {
@@ -198,19 +200,19 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 1.25rem
+    gap: 20px;
 }
 .div11 {
-    width: 12.1875rem; /* 195px -> 12.1875rem */
+    width: 195px;
     position: relative;
-    line-height: 1.35; /* 135% -> 1.35 */
+    line-height: 135%;
     display: inline-block;
     flex-shrink: 0;
 }
 .div13 {
-    width: 11.8125rem; /* 189px -> 11.8125rem */
+    width: 189px;
     position: relative;
-    line-height: 1.35;
+    line-height: 135%;
     display: inline-block;
     flex-shrink: 0;
 }
@@ -220,63 +222,61 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.75rem; /* 12px -> 0.75rem */
-    font-size: 0.75rem; /* 12px -> 0.75rem */
+    gap: 12px;
+    font-size: 12px;
 }
 .frame-parent {
-    width: 100%; /* 1000px -> 100% */
-    max-width: 62.5rem; /* 1000px -> 62.5rem */
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 2.5rem 5rem 0;
+    padding: 40px 80px 0px;
     box-sizing: border-box;
-    gap: 1.5rem; /* 24px -> 1.5rem */
+    gap: 24px;
     z-index: 4;
-    margin-left: -3.75rem; /* -60px -> -3.75rem */
+    margin-left: -60px;
 }
 .p {
     margin-block-start: 0;
-    margin-block-end: 0.25rem; /* 4px -> 0.25rem */
+    margin-block-end: 4px;
 }
 .c {
     margin: 0;
 }
 .c-container {
-    width: 39.0625rem; /* 625px -> 39.0625rem */
+    width: 625px;
     position: relative;
-    line-height: 1.35;
+    line-height: 135%;
     display: inline-block;
     flex-shrink: 0;
 }
 .expert1 {
-    width: 100%; /* 1000px -> 100% */
-    max-width: 62.5rem; /* 1000px -> 62.5rem */
+    width: 1000px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 2rem 5rem 0;
+    padding: 32px 80px 0px;
     box-sizing: border-box;
     z-index: 5;
-    margin-left: -3.75rem; /* -60px -> -3.75rem */
+    margin-left: -60px;
     text-align: center;
-    font-size: 1rem; /* 16px -> 1rem */
+    font-size: 16px;
 }
 .div15 {
     align-self: stretch;
     position: relative;
-    font-size: 1rem; /* 16px -> 1rem */
-    line-height: 1.35;
+    font-size: 16px;
+    line-height: 135%;
 }
 .div14 {
-    width: 39.0625rem; /* 625px -> 39.0625rem */
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 1rem; /* 16px -> 1rem */
+    gap: 16px;
 }
 .ves-parent {
     align-self: stretch;
@@ -284,33 +284,32 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 0.8125rem; /* 13px -> 0.8125rem */
-    font-size: 0.75rem; /* 12px -> 0.75rem */
+    gap: 13px;
+    font-size: 12px;
 }
 .vesvideo {
-    width: 100%; /* 1000px -> 100% */
-    max-width: 62.5rem; /* 1000px -> 62.5rem */
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 2.5rem 5rem 0;
+    padding: 40px 80px 0px;
     box-sizing: border-box;
-    gap: 1.5rem; /* 24px -> 1.5rem */
+    gap: 24px;
     z-index: 6;
-    margin-left: -3.75rem; /* -60px -> -3.75rem */
+    margin-left: -60px;
 }
 .div17 {
-    width: 39.0625rem; /* 625px -> 39.0625rem */
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
 .wrapper1 {
-    width: 47.1875rem; /* 757px -> 47.1875rem */
+    width: 757px;
     position: relative;
-    height: 7.4375rem; /* 119px -> 7.4375rem */
+    height: 119px;
 }
 .find-sort-inner {
     align-self: stretch;
@@ -318,29 +317,29 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 1rem; /* 16px -> 1rem */
+    font-size: 16px;
 }
 .klementin-icon {
     align-self: stretch;
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 12.375rem; /* 198px -> 12.375rem */
+    height: 198px;
     flex-shrink: 0;
     object-fit: contain;
 }
 .klementin-parent {
-    width: 12.1875rem; /* 195px -> 12.1875rem */
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.8125rem; /* 13px -> 0.8125rem */
+    gap: 13px;
 }
 .unshiu-icon {
-    width: 10rem; /* 160px -> 10rem */
+    width: 160px;
     position: relative;
-    height: 8.819rem; /* 141.1px -> 8.819rem */
+    height: 141.1px;
     object-fit: contain;
 }
 .unshiu-parent {
@@ -349,10 +348,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.8125rem; /* 13px -> 0.8125rem */
+    gap: 13px;
 }
 .frame-wrapper {
-    width: 12.1875rem; /* 195px -> 12.1875rem */
+    width: 195px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,53 +362,51 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 9.8125rem; /* 157px -> 9.8125rem */
+    height: 157px;
     flex-shrink: 0;
     object-fit: cover;
 }
 .frame-container {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 1.25rem; /* 20px -> 1.25rem */
+    gap: 20px;
 }
 .sort-inner {
-    width: 39.0625rem; /* 625px -> 39.0625rem */
+    width: 625px;
     position: relative;
-    height: 19.1875rem; /* 307px -> 19.1875rem */
-    font-size: 0.75rem; /* 12px -> 0.75rem */
+    height: 307px;
+    font-size: 12px;
 }
 .sort1 {
-    width: 100%; /* 1000px -> 100% */
-    max-width: 62.5rem; /* 1000px -> 62.5rem */
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 2.5rem 5rem 0;
+    padding: 40px 80px 0px;
     box-sizing: border-box;
-    gap: 1.5rem; /* 24px -> 1.5rem */
+    gap: 24px;
 }
 .i {
     align-self: stretch;
     position: relative;
-    line-height: 1.35; /* 135% */
+    line-height: 135%;
 }
 .expert2 {
-    width: 100%;
-    max-width: 62.5rem; /* 1000px */
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 2rem 18.75% 0 5rem; /* 32px 295px 0 80px */
+    padding: 32px 295px 0px 80px;
     box-sizing: border-box;
     text-align: center;
-    font-size: 1rem; /* 16px */
+    font-size: 16px;
 }
 .sort {
     display: flex;
@@ -417,168 +414,166 @@
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 7;
-    margin-left: -3.75rem; /* -60px */
+    margin-left: -60px;
 }
 .child {
+    width: 233px;
     position: relative;
     background-color: rgba(247, 133, 35, 0.6);
-    height: 1.25rem; /* 20px */
-    width: 14.5625rem; /* 233px */
+    height: 20px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
 }
 .div23 {
+    width: 625px;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 39.0625rem; /* 625px */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.125rem 0;
-    box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
-    line-height: 1.35; /* 135% */
-    height: 2.75rem; /* 44px */
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    line-height: 135%;
+    display: inline-block;
+    height: 44px;
     flex-shrink: 0;
     z-index: 1;
 }
 .div22 {
     position: absolute;
-    top: 10.679rem; /* 170.79px */
-    left: 0;
-    width: 39.0625rem; /* 625px */
+    top: 170.79px;
+    left: 0px;
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0.125rem 0;
+    padding: 2px 0px;
     box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
+    gap: 10px;
 }
 .item {
+    width: 131px;
     position: relative;
     background-color: rgba(247, 133, 35, 0.6);
-    height: 1.25rem; /* 20px */
-    width: 8.1875rem; /* 131px */
+    height: 20px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
 }
 .div24 {
     position: absolute;
-    top: 10.679rem; /* 170.79px */
-    left: 0;
-    width: 39.0625rem; /* 625px */
+    top: 114px;
+    left: 0px;
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0.125rem 0;
+    padding: 2px 0px;
     box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
+    gap: 10px;
 }
 .inner {
+    width: 171px;
     position: relative;
     background-color: rgba(247, 133, 35, 0.6);
-    height: 1.25rem; /* 20px */
-    width: 10.6875rem; /* 171px */
+    height: 20px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
 }
 .div26 {
     position: absolute;
-    top: 10.679rem; /* 170.79px */
-    left: 0;
-    width: 39.0625rem; /* 625px */
+    top: 57px;
+    left: 0px;
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0.125rem 0;
+    padding: 2px 0px;
     box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
+    gap: 10px;
 }
 .child1 {
+    width: 179px;
     position: relative;
     background-color: rgba(247, 133, 35, 0.6);
-    height: 1.25rem; /* 20px */
-    width: 11.1875rem; /* 179px */
+    height: 20px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
 }
 .div28 {
     position: absolute;
-    top: 10.679rem; /* 170.79px */
-    left: 0;
-    width: 39.0625rem; /* 625px */
+    top: 0px;
+    left: 0px;
+    width: 625px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0.125rem 0;
+    padding: 2px 0px;
     box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
+    gap: 10px;
 }
 .spisok {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 39.0625rem; /* 625px */
-    height: 13.4375rem; /* 215px */
+    top: 0px;
+    left: 0px;
+    width: 625px;
+    height: 215px;
 }
 .spisok-wrapper {
-    position: absolute;
-    top: 2.5rem; /* 40px */
-    left: 5rem; /* 80px */
-    width: 52.5rem; /* 840px */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 1rem; /* 16px */
+    align-self: stretch;
+    position: relative;
+    height: 215px;
+    font-size: 16px;
 }
 .list {
     position: absolute;
-    top: 2.5rem; /* 40px */
-    left: 5rem; /* 80px */
-    width: 52.5rem; /* 840px */
+    top: 40px;
+    left: 80px;
+    width: 840px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 1rem; /* 16px */
+    gap: 16px;
 }
 .itog {
-    width: 62.5rem; /* 1000px */
+    width: 1000px;
     position: relative;
-    height: 22.1875rem; /* 355px */
+    height: 355px;
     z-index: 8;
-    margin-left: -3.75rem; /* -60px */
+    margin-left: -60px;
 }
 .div32 {
     position: relative;
-    line-height: 1.35; /* 135% */
+    line-height: 135%;
 }
 .parent2 {
-    width: 62.5rem; /* 1000px */
-    padding: 1.5rem 0 2.5rem 5rem; /* 24px 0 40px 80px */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 0px 40px 80px;
     box-sizing: border-box;
-    gap: 0.625rem; /* 10px */
+    gap: 10px;
 }
 .plashka {
+    align-self: stretch;
     flex: 1;
     position: relative;
     background-color: #f78523;
     overflow: hidden;
 }
 .podval {
-    width: 62.5rem; /* 1000px */
-    height: 12.375rem; /* 198px */
+    width: 1000px;
+    height: 198px;
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
@@ -586,41 +581,47 @@
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 9;
-    margin-left: -3.75rem; /* -60px */
-    font-size: 0.75rem; /* 12px */
+    margin-left: -60px;
+    font-size: 12px;
 }
 .my-photo-icon {
-    border-radius: 100%;
+    align-self: stretch;
+    position: relative;
+    border-radius: 100px;
     max-width: 100%;
     overflow: hidden;
-    height: 7.6875rem; /* 123px */
+    height: 123px;
+    flex-shrink: 0;
     object-fit: cover;
-    object-position: center top;
+object-position: center top;
 }
 .my-phototext {
+    align-self: stretch;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.5rem; /* 8px */
+    gap: 8px;
 }
 .factoid {
+    width: 123px;
+    margin: 0 !important;
     position: absolute;
-    top: 41.125rem; /* 658px */
-    left: 49.8125rem; /* 797px */
+    top: 658px;
+    left: 797px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 1.5rem; /* 24px */
+    gap: 24px;
     z-index: 10;
-    font-size: 0.75rem; /* 12px */
+    font-size: 12px;
 }
 .kursach {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 274.125rem; /* 4386px */
+    height: 4386px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -629,7 +630,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     text-align: left;
-    font-size: 1.5rem; /* 24px */
+    font-size: 24px;
     color: #000;
-    font-family: Inter, sans-serif;
+    font-family: Inter;
 }
