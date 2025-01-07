@@ -30,13 +30,13 @@
     box-sizing: border-box;
     gap: 24px;
     z-index: 1;
-    margin-left: -60px;
     font-size: 48px;
 }
 .b1 {
     align-self: stretch;
     position: relative;
     line-height: 115%;
+    text-indent: 2px;
 }
 .div1 {
     position: absolute;
@@ -78,6 +78,12 @@
     justify-content: flex-start;
     gap: 20px;
 }
+.div3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 135%;
+    font-weight: 600;
+}
 .parent {
     position: absolute;
     top: 0px;
@@ -87,7 +93,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
 }
 .group {
     position: absolute;
@@ -98,7 +103,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
 }
 .container {
     position: absolute;
@@ -109,7 +113,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
 }
 .spelost-text {
     align-self: stretch;
@@ -143,7 +146,6 @@
     box-sizing: border-box;
     gap: 24px;
     z-index: 2;
-    margin-left: -60px;
 }
 .video-touch {
     align-self: stretch;
@@ -160,8 +162,12 @@
     box-sizing: border-box;
     gap: 13px;
     z-index: 3;
-    margin-left: -60px;
     font-size: 12px;
+}
+.b2 {
+    position: relative;
+    line-height: 115%;
+    text-indent: 2px;
 }
 .div10 {
     position: absolute;
@@ -235,7 +241,6 @@
     box-sizing: border-box;
     gap: 24px;
     z-index: 4;
-    margin-left: -60px;
 }
 .p {
     margin-block-start: 0;
@@ -260,9 +265,8 @@
     padding: 32px 80px 0px;
     box-sizing: border-box;
     z-index: 5;
-    margin-left: -60px;
-    text-align: center;
-    font-size: 16px;
+    font-size: 20px;
+    color: #4a8306;
 }
 .div15 {
     align-self: stretch;
@@ -297,7 +301,6 @@
     box-sizing: border-box;
     gap: 24px;
     z-index: 6;
-    margin-left: -60px;
 }
 .div17 {
     width: 625px;
@@ -328,6 +331,27 @@
     flex-shrink: 0;
     object-fit: contain;
 }
+.div19 {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+}
+.p1 {
+    text-indent: 20px;
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+.p4 {
+    text-indent: 20px;
+    margin: 0;
+}
+.parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 .klementin-parent {
     width: 195px;
     display: flex;
@@ -339,7 +363,7 @@
 .unshiu-icon {
     width: 160px;
     position: relative;
-    height: 141.1px;
+    height: 141px;
     object-fit: contain;
 }
 .unshiu-parent {
@@ -364,7 +388,7 @@
     overflow: hidden;
     height: 157px;
     flex-shrink: 0;
-    object-fit: cover;
+    object-fit: contain;
 }
 .frame-container {
     position: absolute;
@@ -405,8 +429,8 @@
     justify-content: flex-start;
     padding: 32px 295px 0px 80px;
     box-sizing: border-box;
-    text-align: center;
-    font-size: 16px;
+    font-size: 20px;
+    color: #4a8306;
 }
 .sort {
     display: flex;
@@ -414,7 +438,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 7;
-    margin-left: -60px;
 }
 .child {
     width: 233px;
@@ -425,7 +448,7 @@
     flex-shrink: 0;
     z-index: 0;
 }
-.div23 {
+.div26 {
     width: 625px;
     position: absolute;
     margin: 0 !important;
@@ -437,7 +460,7 @@
     flex-shrink: 0;
     z-index: 1;
 }
-.div22 {
+.div25 {
     position: absolute;
     top: 170.79px;
     left: 0px;
@@ -459,7 +482,7 @@
     flex-shrink: 0;
     z-index: 0;
 }
-.div24 {
+.div27 {
     position: absolute;
     top: 114px;
     left: 0px;
@@ -481,7 +504,7 @@
     flex-shrink: 0;
     z-index: 0;
 }
-.div26 {
+.div29 {
     position: absolute;
     top: 57px;
     left: 0px;
@@ -503,7 +526,7 @@
     flex-shrink: 0;
     z-index: 0;
 }
-.div28 {
+.div31 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -545,35 +568,52 @@
     position: relative;
     height: 355px;
     z-index: 8;
-    margin-left: -60px;
 }
-.div32 {
+.div35 {
+    position: relative;
+    line-height: 100%;
+}
+.p15 {
+    text-indent: Mixed;
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+.p16 {
+    text-indent: Mixed;
+    margin: 0;
+}
+.div36 {
     position: relative;
     line-height: 135%;
 }
-.parent2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1000px;
+.parent6 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 24px 0px 40px 80px;
-    box-sizing: border-box;
+}
+.parent5 {
+    position: absolute;
+    top: 24px;
+    left: 80px;
+    width: 899px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 10px;
 }
 .plashka {
     align-self: stretch;
-    flex: 1;
     position: relative;
     background-color: #f78523;
+    height: 201px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 .podval {
     width: 1000px;
-    height: 198px;
+    height: 201px;
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
@@ -581,7 +621,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 9;
-    margin-left: -60px;
     font-size: 12px;
 }
 .my-photo-icon {
@@ -593,7 +632,7 @@
     height: 123px;
     flex-shrink: 0;
     object-fit: cover;
-object-position: center top;
+    object-position: center top;
 }
 .my-phototext {
     align-self: stretch;
@@ -621,7 +660,7 @@ object-position: center top;
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 4386px;
+    height: 4430px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -629,6 +668,7 @@ object-position: center top;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-content: flex-start;
+    gap: 0px;
     text-align: left;
     font-size: 24px;
     color: #000;
